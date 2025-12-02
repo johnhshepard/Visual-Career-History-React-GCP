@@ -11,8 +11,8 @@ const careerData = [
     company: 'NexGen Data Systems, Inc.',
     location: 'North Charleston, SC',
     period: '2023 - 2025',
-    description: 'Leading a team of 15 engineers and designers to launch the new SaaS analytics platform. Increased user retention by 20% in Q1.',
-    tags: ['Leadership', 'Agile', 'Product Strategy']
+    description: 'Led the development of interactive QuickSight and Qlik Sense dashboards and Databricks ETL pipelines, enabling command-level visibility into USMC logistics operations. Standardized data models across MCBOSS and Advana environments while implementing governance patterns that restored data integrity for longitudinal analysis.',
+    tags: ['Data Engineering (Python/SQL)', 'Dashboard Design', 'AWS Analytics']
   },
       {
     id: 7,

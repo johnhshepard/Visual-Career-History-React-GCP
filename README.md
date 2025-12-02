@@ -1,7 +1,7 @@
 # Interactive Career Timeline
 A responsive, data-driven React application designed to visualize professional experience. This project goes beyond a standard resume by allowing users to interactively explore career highlights and providing context for employment gaps or sabbaticals.
 
-(Note: Replace this line with screenshot of app)
+![App Screenshot](public/screenshot.png "App Screenshot")
 
 # 🚀 Project Overview
 The goal of this project was to build a modern, interactive replacement for the static PDF resume. It solves a specific UX problem: How to display employment gaps positively. Instead of hiding gaps, this application treats them as "Context Cards" that users can expand to read about upskilling, travel, or personal growth, reframing them as active parts of the career journey.
