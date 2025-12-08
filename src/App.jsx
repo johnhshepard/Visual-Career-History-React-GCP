@@ -52,8 +52,8 @@ const careerData = [
     company: 'Percentric Technologies, LLC dba Gnymble',
     location: 'Norfolk, VA',
     period: '2020 - 2022',
-    description: 'Oversaw brand strategy for 10+ enterprise clients. Managed a $2M annual advertising budget and grew the internal marketing team from 4 to 12.',
-    tags: ['Brand Strategy', 'Budgeting', 'Team Building']
+    description: 'Engineered and administered full AWS infrastructure for a SaaS healthcare product, achieving 99.9% uptime and strict HIPAA compliance. Managed the product roadmap for the PercyMD app, coordinating development teams to increase release cadence by 25%.',
+    tags: ['AWS Architecture', 'Product Strategy', 'HIPAA Compliance']
   },
     {
     id: 3,
@@ -112,7 +112,7 @@ const TimelineItem = ({ item, isEven, index, expanded, toggleExpand }) => {
   const isGap = item.type === 'gap';
   const isEdu = item.type === 'education';
   const showDescription = true;
-  const showTags = false;
+  const showTags = true;
 
   // Dynamic Styles based on type
   const cardBg = isGap ? 'bg-amber-50' : 'bg-white';
@@ -297,7 +297,7 @@ const App = () => {
 
       {/* Main Timeline */}
       <main className="container mx-auto px-4">
-        <div className="flex flex-col md:grid grid-cols-9 mx-auto p-2 text-slate-50">
+        <div className="flex flex-col md:grid grid-cols-10 mx-auto p-2 text-slate-50">
           
           {careerData.map((item, index) => (
             <TimelineItem 
