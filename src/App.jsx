@@ -34,7 +34,7 @@ const careerData = [
     period: 'March - May 2024 (3 months)',
     description: 'Focused on transitioning from IT management to a more technical role in data analytics and cybersecurity.',
     context: 'During this period, I dedicated myself to upskilling in data analytics and cybersecurity through various online courses and certifications. This intentional gap allowed me to realign my career trajectory towards my passion for data-driven decision-making and secure systems, preparing me for my subsequent role as a Senior Dashboard Analytics SME.',
-    tags: ['Python', 'PMP Certification', 'React']
+    tags: ['CISSP', 'CISM', 'AWS Solutions Architect - Associate', 'CompTIA CASP+']
   },
       {
     id: 3,
