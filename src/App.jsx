@@ -4,107 +4,119 @@ import { Briefcase, Coffee, GraduationCap, ChevronDown, ChevronUp, Calendar, Map
 // --- USER DATA SECTION ---
 // Edit this array to update your career history.
 const careerData = [
-  {
+    {
     id: 1,
-    type: 'work',
-    title: 'Senior Dashboard Analytics SME | Appian Developer',
-    company: 'NexGen Data Systems, Inc.',
-    location: 'North Charleston, SC',
-    period: '2023 - 2025',
-    description: 'Led the development of interactive QuickSight and Qlik Sense dashboards and Databricks ETL pipelines, enabling command-level visibility into USMC logistics operations. Standardized data models across MCBOSS and Advana environments while implementing governance patterns that restored data integrity for longitudinal analysis.',
-    tags: ['Data Engineering (Python/SQL)', 'Dashboard Design', 'AWS Analytics']
-  },
-      {
-    id: 7,
-    type: 'education',
-    title: 'MS in Cybersecurity and Information Assurance',
-    company: 'Western Governors University',
-    location: 'Salt Lake City, UT',
-    period: '2023 - 2024',
-    description: 'Excellence Award Recipient.',
-    tags: ['Communication', 'Research']
+    type: 'gap',
+    title: 'Job Search & Skill Enhancement',
+    // company: 'Western Governors University',
+    location: 'Saint Simons Island, GA',
+    period: 'October 2025 - Present',
+    description: 'Actively seeking new opportunities in Data Analytics and Cybersecurity domains while enhancing skills through advanced coursework and certifications.',
+    context: 'This period is dedicated to professional growth and skill enhancement. I am focusing on completing advanced certifications and hands-on projects to stay abreast of the latest trends and technologies in data analytics and cybersecurity. This intentional gap allows me to realign my career trajectory towards my passion for data-driven decision-making and secure systems.',
+    tags: ['Generative AI Badge', 'Machine Learning Specialization from Stanford Online and DeepLearning.AI on Coursera', 'Over 40 hours on DataCamp', 'Over 1300 events on TryHackMe', 'AWS Certified Cloud Practitioner Renewed', 'AWS Cloud Quest: Generative AI Practitioner - Training Badge']
   },
   {
     id: 2,
+    type: 'work',
+    title: 'Senior Dashboard Analytics SME | Appian Developer',
+    company: 'NexGen Data Systems, Inc.',
+    location: 'North Charleston, SC (Remote)',
+    period: 'June 2023 - September 2025',
+    description: 'Led the development of interactive QuickSight and Qlik Sense dashboards and Databricks ETL pipelines, enabling command-level visibility into USMC logistics operations. Standardized data models across MCBOSS and Advana environments while implementing governance patterns that restored data integrity for longitudinal analysis.',
+    tags: ['Data Engineering (Python/SQL)', 'Dashboard Design', 'AWS Analytics', 'Appian Development', 'CompTIA Data+ Certified' ]
+  },
+    {
+    id: 4,
     type: 'gap',
-    title: 'Sabbatical: Skill Acquisition',
+    title: 'Job Search & Career Transition',
     company: 'Self-Directed',
     location: 'Remote',
-    period: '2022 - 2023 (8 months)',
-    description: 'Took a deliberate career break to pivot from Marketing to Product Management.',
-    context: 'During this time, I completed a 6-month intensive coding bootcamp, obtained my PMP certification, and built three personal full-stack projects to understand the engineering lifecycle better. This gap was crucial for my transition into technical leadership.',
+    period: 'March - May 2024 (3 months)',
+    description: 'Focused on transitioning from IT management to a more technical role in data analytics and cybersecurity.',
+    context: 'During this period, I dedicated myself to upskilling in data analytics and cybersecurity through various online courses and certifications. This intentional gap allowed me to realign my career trajectory towards my passion for data-driven decision-making and secure systems, preparing me for my subsequent role as a Senior Dashboard Analytics SME.',
     tags: ['Python', 'PMP Certification', 'React']
   },
+      {
+    id: 3,
+    type: 'education',
+    title: 'MS in Cybersecurity and Information Assurance',
+    company: 'Western Governors University',
+    location: 'Salt Lake City, UT (Online)',
+    period: '2023 - February 2024',
+    description: 'Excellence Award Recipient.',
+    tags: ['Secure Network Design', 'Cloud Security', 'Governance, Risk and Compliance', 'Secure Software Design', 'Cybersecurity Architecture and Engineering']
+  },
+
   {
     id: 6,
-    type: 'education',
-    title: 'MBA in IT Management',
-    company: 'Western Governors University',
-    location: 'Salt Lake City, UT',
-    period: '2021 - 2022',
-    description: 'Excellence Award Recipient.',
-    tags: ['Communication', 'Research']
-  },
-  {
-    id: 3,
     type: 'work',
     title: 'Product Owner & Cloud Engineer',
     company: 'Percentric Technologies, LLC dba Gnymble',
-    location: 'Norfolk, VA',
+    location: 'Norfolk, VA (Remote)',
     period: '2020 - 2022',
     description: 'Engineered and administered full AWS infrastructure for a SaaS healthcare product, achieving 99.9% uptime and strict HIPAA compliance. Managed the product roadmap for the PercyMD app, coordinating development teams to increase release cadence by 25%.',
     tags: ['AWS Architecture', 'Product Strategy', 'HIPAA Compliance']
   },
     {
-    id: 3,
+    id: 5,
+    type: 'education',
+    title: 'MBA in IT Management',
+    company: 'Western Governors University',
+    location: 'Salt Lake City, UT (Online)',
+    period: 'October 2021 - October 2022',
+    description: 'Excellence Award Recipient.',
+    tags: ['IT Project Management', 'Managing Organizations and Leading People', 'Managing Human Capital', 'Marketing', 'IT Strategic Solutions', 'Global Economics for Managers', 'Accounting for Decision Makers', 'Ethical Leadership', 'Financial Management', 'Data-Driven Decision Making']
+  },
+    {
+    id: 7,
     type: 'work',
     title: 'Service Desk Manager (Promotion)',
     company: 'Federal Law Enforcement Training Centers (FLETC)',
     location: 'Glynco, GA',
     period: '2017 - 2020',
-    description: 'Oversaw brand strategy for 10+ enterprise clients. Managed a $2M annual advertising budget and grew the internal marketing team from 4 to 12.',
-    tags: ['Brand Strategy', 'Budgeting', 'Team Building']
+    description: 'Directed a DHS Enterprise IT Service Desk team of 16 employees supporting over 5,000 staff across multiple federal locations. Spearheaded vulnerability management and OS hardening initiatives, including the implementation of DISA STIGs across thousands of endpoints.',
+    tags: ['Vulnerability Management', 'OS Hardening', 'Team Leadership']
   },
     {
-    id: 3,
+    id: 8,
     type: 'work',
     title: 'Help Desk Specialist',
     company: 'Federal Law Enforcement Training Centers (FLETC)',
     location: 'Glynco, GA',
     period: '2016 - 2017',
-    description: 'Oversaw brand strategy for 10+ enterprise clients. Managed a $2M annual advertising budget and grew the internal marketing team from 4 to 12.',
-    tags: ['Brand Strategy', 'Budgeting', 'Team Building']
+    description: 'Provided critical Tier 1/2 support and performed core Identity and Access Management (IAM) tasks within Active Directory. Improved data recovery processes for encrypted drives, resulting in a documented 75% decrease in recovery time.',
+    tags: ['Incident Response', 'IAM Administration', 'Process Improvement']
   },
     {
-    id: 3,
+    id: 10,
+    type: 'work',
+    title: 'Small Business IT, Web Development, and Digital Product Consultant',
+    company: 'Various',
+    location: 'Golden Isles, GA',
+    period: '2013 - 2016',
+    description: 'Managed a dual portfolio of technical responsibilities, spanning Tier 1-3 enterprise infrastructure support, cloud migrations (O365/Google), and the architecture of revenue-generating web platforms.',
+    context: 'This period allowed me to gain hands-on experience across a broad spectrum of IT functions, from network infrastructure to client consulting. The diverse challenges I encountered honed my problem-solving skills and deepened my understanding of technology\'s role in business success.',
+    tags: ['Product Strategy', 'Cloud Migrations (O365)', 'Network Infrastructure', 'Web Development', 'Client Consulting']
+  },
+    {
+    id: 9,
     type: 'work',
     title: 'Valuation Manager',
     company: 'FairValue Advisors, LLC',
     location: 'Brunswick, GA',
     period: '2007 - 2013',
-    description: 'Oversaw brand strategy for 10+ enterprise clients. Managed a $2M annual advertising budget and grew the internal marketing team from 4 to 12.',
-    tags: ['Brand Strategy', 'Budgeting', 'Team Building']
+    description: 'Managed complex financial valuation and modeling projects for Fortune 500 and defense clients, establishing the rigorous analytical foundation for my transition into data engineering.',
+    tags: ['Complex Financial Modeling','Quantitative Analysis & Forecasting', 'Due Diligence & Risk Assessment', 'Market Research & Data Synthesis']
   },
   {
-    id: 4,
-    type: 'gap',
-    title: 'Travel & Cultural Immersion',
-    company: 'South East Asia',
-    location: 'Various',
-    period: '2018 - 2019 (6 months)',
-    description: 'Solo backpacking trip through Vietnam, Thailand, and Japan.',
-    context: 'This period was focused on developing adaptability and cross-cultural communication skills. Navigating foreign environments improved my problem-solving abilities under pressure—skills I apply daily in fast-paced startup environments.',
-    tags: ['Adaptability', 'Language Learning']
-  },
-  {
-    id: 5,
+    id: 11,
     type: 'education',
     title: 'BBA in Economics and Finance',
     company: 'Georgia Southern University',
     location: 'Statesboro, GA',
     period: '2003 - 2007',
     description: 'Graduated Cum Laude. Minor in Management.',
-    tags: ['Communication', 'Research']
+    tags: ['Econometrics', 'Financial Modeling', 'Statistical Analysis', 'Strategic Management']
   },
 ];
 
@@ -274,7 +286,10 @@ const App = () => {
         <div className="max-w-4xl mx-auto text-center relative z-10">
           <h1 className="text-4xl md:text-5xl font-extrabold mb-4 tracking-tight">John Shepard</h1>
           <p className="text-xl text-slate-300 font-light max-w-2xl mx-auto">
-            Data Analytics & Cybersecurity SME | CISSP, CISM, AWS | Driving Secure, Data-Driven Decisions
+            Data Analytics & Cybersecurity SME | CISSP, CISM, AWS
+          </p>
+          <p className="text-xl text-slate-300 font-light max-w-2xl mx-auto">
+           Driving Secure, Data-Driven Decisions
           </p>
           
           <div className="mt-8 flex justify-center gap-4">
